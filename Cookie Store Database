@@ -1,0 +1,25 @@
+CREATE TABLE Cookie_Shop (id INTEGER PRIMARY KEY, Flavor TEXT, Gluten_Free TEXT, Dairy TEXT, Quantity INTEGER, Price INTEGER);
+
+INSERT INTO Cookie_Shop Values (1, 'Chocolate Chip', 'Yes', 'Yes', 300, 3);
+INSERT INTO Cookie_Shop Values (2, 'Strawberry', 'No','Yes', 200, 2);
+INSERT INTO Cookie_Shop Values (3, 'Rocky Road', 'Yes', 'Yes', 150, 3); 
+INSERT INTO Cookie_Shop Values (4, 'Vanilla', 'Yes', 'Yes', 500, 1);
+INSERT INTO Cookie_Shop Values (5, 'Mango Sherbet', 'Yes', 'Yes', 401, 2);
+INSERT INTO Cookie_Shop Values (6, 'Pineapple Sherbet', 'Yes', 'Yes', 200, 2);
+INSERT INTO Cookie_Shop Values (7, 'Dutch Cholocate', 'No', 'No', 375, 3);
+INSERT INTO Cookie_Shop Values (8, 'Chunky Monkey', 'No', 'No', 125, 2);
+INSERT INTO Cookie_Shop Values (9, 'Apple Pie', 'Yes', 'Yes', 150, 3);
+INSERT INTO Cookie_Shop Values (10, 'Cookies n Cream', 'Yes', 'No', 250, 2);
+INSERT INTO Cookie_Shop Values (11, 'Peanut Butter', 'Yes', 'No', 75, 1);
+INSERT INTO Cookie_Shop Values (12, 'Pistachio', 'No', 'No', 320, 2);
+INSERT INTO Cookie_Shop Values (13, 'Fudge', 'Yes', 'No', 425, 2.5);
+INSERT INTO Cookie_Shop Values (14, 'Cinnamon', 'Yes', 'Yes', 175, 1.5);
+INSERT INTO Cookie_Shop Values (15, 'French Vanilla', 'No', 'Yes', 100, 1.5);
+
+SELECT * From Cookie_Shop ORDER BY price ASC;
+SELECT SUM(Flavor) FROM Cookie_Shop ORDER by 'Chocolate';
+
+
+
+
+
